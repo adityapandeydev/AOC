@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"bufio"
@@ -8,29 +8,24 @@ import (
 	"strconv"
 	"strings"
 	"math"
+	"Golang/utils"
 )
 
-func check(e error) {
-	if e != nil {
-		panic(e)
-	}
-}
-
-func main() {
+func Part1() {
     var array1 []int
 	var array2 []int
 	file, err := os.Open("../Input/day1.1.txt")
-	check(err)
+	utils.Check(err)
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		line := scanner.Text()
 		temp, err := strconv.Atoi(strings.Split(line, " ")[0])
-		check(err)
+		utils.Check(err)
 		array1 = append(array1, temp)
 		temp, err = strconv.Atoi(strings.Split(line, " ")[3])
-		check(err)
+		utils.Check(err)
 		array2 = append(array2, temp)
 	}
 	if err := scanner.Err(); err != nil {
