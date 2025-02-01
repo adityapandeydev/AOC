@@ -8,7 +8,6 @@ for line in file:
         map[key] = map.get(key, 0) + 1
     else:
         map[key] = 1
-array1.sort()
 
 sum = 0
 for i in range(len(array1)):

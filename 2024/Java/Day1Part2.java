@@ -21,8 +21,6 @@ class Day1Part2 {
                 //System.out.println(line.split(" ")[0] + " " + line.split(" ")[3]);
             }
         }
-        Collections.sort(array1);
-        // map.forEach( (k, v) -> {System.out.println(k + " -> " + v); });
 
         int sum = 0;
         for (int i = 0; i < array1.size(); i++) {

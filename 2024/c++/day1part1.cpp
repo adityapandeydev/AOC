@@ -28,7 +28,6 @@ int main() {
     while (getline(file, line)) {
         array1.push_back(stoi(split(line, ' ').at(0)));
         array2.push_back(stoi(split(line, ' ').at(3)));
-        cout << line << endl;
     }
     stable_sort(array1.begin(), array1.end());
     stable_sort(array2.begin(), array2.end());
