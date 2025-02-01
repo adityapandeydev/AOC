@@ -1,0 +1,1 @@
+D:\Aditya\Projects\AOC\2024\Rust\target\debug\rust.exe: D:\Aditya\Projects\AOC\2024\Rust\day1\mod.rs D:\Aditya\Projects\AOC\2024\Rust\day1\part1.rs D:\Aditya\Projects\AOC\2024\Rust\main.rs D:\Aditya\Projects\AOC\2024\Rust\utils.rs
