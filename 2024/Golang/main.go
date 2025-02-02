@@ -4,6 +4,7 @@ import (
     "fmt"
     "os"
 	"Golang/day1"
+	"Golang/day2"
 )
 
 func main() {
@@ -22,7 +23,7 @@ func main() {
         day1.Part2()
     case "day2part1":
         fmt.Println("Running Day 2, Part 1")
-        // call the function for day2 part1
+        day2.Part1()
     default:
         fmt.Println("Invalid day/part specified")
     }
