@@ -33,11 +33,7 @@ public class Day2Part2 {
             left = report[i];
             right = report[i + 1];
             boolean difference = (Math.abs(right - left) >= 1) && (Math.abs(right - left) <= 3);
-            if (isIncreasing && (left > right)) {
-                return false;
-            } else if (!isIncreasing && (right > left)) {
-                return false;
-            } else if (!difference) {
+            if ((isIncreasing && left > right) || (!isIncreasing && right > left) || !difference) {
                 return false;
             }
         }
