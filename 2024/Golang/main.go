@@ -16,14 +16,13 @@ func main() {
     dayPart := os.Args[1]
     switch dayPart {
     case "day1part1":
-        fmt.Println("Running Day 1, Part 1")
         day1.Part1()
     case "day1part2":
-        fmt.Println("Running Day 1, Part 2")
         day1.Part2()
     case "day2part1":
-        fmt.Println("Running Day 2, Part 1")
         day2.Part1()
+    case "day2part2":
+        day2.Part2()
     default:
         fmt.Println("Invalid day/part specified")
     }
