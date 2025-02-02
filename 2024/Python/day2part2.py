@@ -6,11 +6,7 @@ def isSafe(report):
         left = report[i]
         right = report[i + 1]
         difference = abs(right - left) >= 1 and abs(right - left) <= 3
-        if isIncreasing and left > right:
-            return False
-        elif not isIncreasing and right > left:
-            return False
-        elif not difference:
+        if isIncreasing and left > right or not isIncreasing and right > left or not difference:
             return False
     return True
 
