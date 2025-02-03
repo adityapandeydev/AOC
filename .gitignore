@@ -4,3 +4,4 @@ Cargo.lock
 Output_Check1.txt
 Output_Check2.txt
 target/
+__pycache__/
