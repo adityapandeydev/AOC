@@ -23,7 +23,7 @@ public class Day3Part2 {
                     if (match.group(3) != null && flag) {
                         int firstNumber = Integer.parseInt(match.group(4));
                         int secondNumber = Integer.parseInt(match.group(5));
-                        sum += firstNumber * secondNumber;
+                        sum += (firstNumber * secondNumber);
                     }
                 }
             }
