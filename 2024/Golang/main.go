@@ -5,6 +5,7 @@ import (
     "os"
 	"Golang/day1"
 	"Golang/day2"
+	"Golang/day3"
 )
 
 func main() {
@@ -23,6 +24,10 @@ func main() {
         day2.Part1()
     case "day2part2":
         day2.Part2()
+    case "day3part1":
+        day3.Part1()
+    case "day3part2":
+        day3.Part2()
     default:
         fmt.Println("Invalid day/part specified")
     }
