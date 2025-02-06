@@ -9,7 +9,9 @@ public class Day3Part1 {
             int sum = 0;
             while((line = reader.readLine()) != null) {
                 line = line.replaceAll("(mul\\(\\d{1,3},\\d{1,3}\\))|.", "$1");
+                System.out.println(line);
                 line = line.replaceAll("(\\(\\d{1,3},\\d{1,3}\\))|.", "$1");
+                System.out.println(line);
                 int i = 0;
                 for (int j = 0; j < line.length(); j++) {
                     if (line.charAt(j) == ')') {
