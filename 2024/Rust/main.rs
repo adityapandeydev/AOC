@@ -1,5 +1,6 @@
 mod day1;
 mod day2;
+mod day3;
 mod utils;
 
 use std::env;
@@ -26,6 +27,12 @@ fn main() {
         }
         "day2part2" => {
             day2::part2::run_part2();
+        }
+        "day3part1" => {
+            day3::part1::run_part1();
+        }
+        "day3part2" => {
+            day3::part2::run_part2();
         }
         _ => {
             println!("Invalid day/part specified");
